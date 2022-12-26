@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meme for EN</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Meme for EN</h1>
+      <section id="create-vocabulary">
+        <label>Your vocabulary</label>
+        <form>
+          <textarea id="vocabulary" rows="20"></textarea>
+          <br />
+          <button onclick="startLearn()" type="button">Start learn</button>
+        </form>
+      </section>
+
+      <section id="learn-word">
+        <p id="current-word"></p>
+        <button onclick="learnWord()">Next word</button>
+        <div id="suggestions"></div>
+        <iframe
+          id="meme"
+          width="480"
+          height="480"
+          frameborder="0"
+          class="giphy-embed"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

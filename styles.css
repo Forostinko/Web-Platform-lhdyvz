@@ -1,0 +1,27 @@
+iframe {
+  pointer-events: none;
+}
+
+button {
+  font-size: 25px;
+}
+
+#vocabulary {
+  width: 100%;
+}
+
+#learn-word {
+  display: none;
+}
+
+#current-word {
+  font-size: 30px;
+}
+
+#suggestions {
+  padding: 20px 0;
+}
+
+#suggestions button {
+  margin: 10px 10px 0 0;
+}
